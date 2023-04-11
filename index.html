@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tradutor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>TRADUTOR</h1> 
+        <div class="content">
+            <div class="divTextarea">
+                <div class="divSelects">
+                    <select class="selectOrigem"></select>
+                </div>
+                <textarea id="textareaOrigem" rows="8" placeholder="Digite aqui"></textarea>
+                <div class="divSelects">
+                    <select class="selectDestino"></select>
+                </div>
+                <textarea id="textareaDestino" rows="8" placeholder="Texto traduzido"></textarea>
+            </div>
+            <div>
+                <button id="btnTranslate">TRADUZIR</button>
+                <button id="btnCLEAR">LIMPAR</button>
+                <button id="btnTroca"><img src="../ProjetoTradutor/images/troca-branco-removebg-preview.png" height ="15" width="22"></button>
+            </div>
+        </div>
+        <h2>API MyMemory</h2>
+        <a href="https://mymemory.translated.net/doc/spec.php">Para mais informações sobre MyMemory</a>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
